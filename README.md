@@ -1,18 +1,18 @@
-validator-es6 
+validation-es6
 ============
 使用E6S编写的一个类似laravel的js验证模块.
 
 ## 安装
 
   ```shell
-  $ npm install validator-es6
+  $ npm install validation-es6
   ```
 
 ## 基本用法
 ```javascript
 import {
     Validator
-} from 'validator-es6';
+} from 'validation-es6';
 
 let rules = {
   username: 'required|min:5',

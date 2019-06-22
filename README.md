@@ -12,7 +12,7 @@ validation-es6
 ```javascript
 import {
     Validator
-} from 'validation-es6';
+} from './node_modules/validation-es6/validator.js';
 
 let rules = {
   username: 'required|min:5',

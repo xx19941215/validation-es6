@@ -1,6 +1,6 @@
 {
   "name": "validation-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A validation package written in es6 inspired by laravel validation",
   "main": "validator.js",
   "scripts": {

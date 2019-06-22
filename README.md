@@ -1,6 +1,6 @@
 validation-es6
 ============
-使用E6S编写的一个类似laravel的js验证模块.
+使用ES6编写的一个类似laravel的js验证模块.
 
 ## 安装
 

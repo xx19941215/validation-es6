@@ -34,7 +34,7 @@ if (v.fails()) {
 ### 定义验证规则
   - "|" 分隔的字符串形式
   ```javascript
-  var rules = {
+  let rules = {
     username: 'required|min:5',
     password: 'required|confirmed|min:6|max:16',
     email: 'email'
@@ -43,7 +43,7 @@ if (v.fails()) {
 
   - 数组形式
   ```javascript
-  var rules = {
+  let rules = {
     username: ['required', 'min:5'],
     password: ['required', ['confirmed'], ['min:6'], ['max:16'],
     email: ['required', 'email']

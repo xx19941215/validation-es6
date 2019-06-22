@@ -12,7 +12,7 @@ validator-es6
 ```javascript
 import {
     Validator
-} from 'validator-js';
+} from 'validator-es6';
 
 let rules = {
   username: 'required|min:5',
